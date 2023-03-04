@@ -1,8 +1,44 @@
 
+h1, h3
+{
+    text-align:center;
+}
+h3
+{
+    background-color:black;
+    color:white;
+    font-size:1em;
+    margin-bottom:0px;
+	height: 30px;
+	
+}
+.news p
+{
+    background-color:#CCCCCC;
+    margin-top:0px;
+	height: 140px;
+	font-style: italic;
+	color: #000;
+	
+}
+.news
+{
+	width: 90%;
+	margin: 50px;
+	margin-top: 5%;
+	height: 120px;
+	
+}
+
+a
+{
+    text-decoration: none;
+    color: blue;
+}
 
   #header {
     position: absolute;
-    background-color: #090451;
+    background-color: #8abebc;
     top: 0;
     left: 0;
     width: 100%;
@@ -12,7 +48,9 @@
     align-items: center;
     z-index: 100;
 }
-
+.ed{
+	margin-top: 150px;
+}
 #header .logo {
     color: var(--primary);
     font-weight: 700;
@@ -45,7 +83,7 @@
 }
 body {
 	color: #56876c;
-    background: #79b1ae;
+    background: #4b5857;
 	font-family: 'Varela Round', sans-serif;
 	font-size: 13px;
 }

@@ -177,8 +177,8 @@ footer a {
             <img src="https://user-images.githubusercontent.com/65358991/170092542-9747edcc-fb51-4e21-aaf5-a61119393618.png" id="bird2">
             <img src="https://user-images.githubusercontent.com/65358991/170092559-883fe071-eb4f-4610-8c8b-a037d061c617.png" id="forest">
             
-            <a href="#" class="btn">passer une Commander</a>
-            <a href="#" class="btn">Gerer mon stock</a>
+            <a href="{{route('list_client')}}" class="btn">passer une Commander</a>
+            <a href="{{route('list_produit')}}" class="btn">Gerer mon stock</a>
 
             
             <img src="https://user-images.githubusercontent.com/65358991/170092605-eada6510-d556-45cc-b7fa-9e4d1d258d26.png" id="rocks">

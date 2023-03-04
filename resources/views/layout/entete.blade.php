@@ -10,17 +10,16 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="{{ asset('css/produit.css') }}">
 
-
-
-
 </head>
 <body>
 	<header id="header">
         <a href="#" class="logo">AlfTech</a>
         <ul>
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="#">Commande</a></li>
-            <li><a href="#">Fournisseur</a></li>
+            <li><a href="{{route('list_produit')}}" class="active">Home</a></li>
+            <li><a href="{{route('list_commande')}}">Commande</a></li>
+            <li><a href="{{route('list_fournisseure')}}">Fournisseur</a></li>
+            <a href="{{route('welcome')}}" class="edit" ><input type="button" class="btn btn-default" data-dismiss="modal" value="Acceuil"></a>
+
         </ul>
     </header>
 	
